@@ -1,7 +1,7 @@
 
 body {
 font-size: 100%;
-    background-image: url(../images/cs.png);
+    background-image: url(../images/background.jpg);
     background-repeat: round;
     background-size: 100%;
     height: 100%;
@@ -12,12 +12,14 @@ font-size: 100%;
 
 /*------------------------------ Navbar Custom -------------------------------*/
 .navbar-default {
-    background-image: linear-gradient(#474750, #9aa7bd) !important;
-
+    background-image: linear-gradient(#bebebe, #a2a0a0) !important;
+    opacity: 65% !important;
+    border-bottom: 2px solid #4b4b4b !important;
+    border-style: double; !important;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: black !important;
+    color: #626161 !important;
     font-size: large !important;
 }
 
@@ -28,12 +30,12 @@ font-size: 100%;
 
 
 .nav-item {
-    color: black !important;
+    color: #4f4d4d !important;
     font-size: large;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #2bc20e !important;
+    color: #062886 !important;
 }
 
 .fs-20 {
@@ -66,16 +68,16 @@ font-size: 100%;
 
 /*------------------- Color of links------------------------------------------*/
 a:hover {
-    color: #2bc20e !important;
+    color: #062886 !important;
 }
 a {
     color: darkslategrey;
 }
 /*-------- active pill color --------*/
 .active {
-    color: #a4a3a3 !important;
-    background-color: #484545;
-    border-radius: 5px;
+    color: #062886 !important;
+    border-bottom: 2px solid #062886 !important;
+
 
 }
 /*--------- border-------------------*/
