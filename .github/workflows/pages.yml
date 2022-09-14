@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: 'app/simple_pages/templates/index.html'
+          path: https://github.com/DianaZawislak/CateredByKurt/blob/5715ad6915141f7d2d5f76db49528b7de9263570/app/simple_pages/templates/index.html
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
